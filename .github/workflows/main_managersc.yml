@@ -3,6 +3,10 @@
 
 name: Build and deploy JAR app to Azure Web App - managersC
 
+name: Setup Node.js
+  uses: actions/setup-node@v2
+  with:
+    node-version: '16.x'
 on:
   push:
     branches:
